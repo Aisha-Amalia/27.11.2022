@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/dac5548ec1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="navbar">
+        <div class="container">
+          <nav>
+            <ul class="top-navbar">
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#About">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+        
+            </ul>
+          </nav>
+       </div>
+   </div>
+
+<script type="text/javascript">
+(function() {
+    var rot1ator = document.getElementById('rotator'), //get the element
+    dir = 'image/',                              //images folder
+    delayInSeconds = 2.3,                           //delay in seconds
+    num = 1,                                      //start number
+    len = 8;                                      //limit
+    setInterval(function(){                           //interval changer
+        rotator.src = dir + num+'.png';               //change picture
+        rotator.alt = num+'.jpg';
+        num = (num === len) ? 1 : ++num;              //reset if last image reached
+    }, delayInSeconds * 99);
+}());
+
+</script>
+   <section id="intro">
+    <div id="top-heading" style="margin-top: 80px; margin-bottom: 80px;">
+        <h1 style="font-size: 55px;"> Exploring the beauty of coding as I go. </h1>
+    </div>
+   <div class="zig-zag" >
+    <img  id="rotator" src="image/1.png"  alt="rotating image">
+   </div>
+   
+</section>
+    
+    <div id="projects" style="margin-top: 100px; margin-bottom: 100px;">
+    <h1 style="font-size: 35px;">RECENT PROJECT</h1>
+    </div>
+    
+    <div style="display: flex; justify-content: center; align-self: center; overflow: hidden">
+        <iframe style="width: 35%; height: 420px; border: none;" src="https://aisha-amalia.github.io/"></iframe>
+    </div>
+    
+</section>
+ 
+   <section id="skills">
+        <div style="margin-top: 100px; margin-bottom: 100px;">
+            <h1 style="font-size: 35px;">SKILLS</h1>
+        
+        </div>
+        <div style="display: grid; grid-template-columns: 100px 100px 100px 100px 100px;
+        grid-gap: 0px; justify-content: space-around; margin: 0 100px;">
+        <div class="skills">
+            <i class="fab fa-html5"></i>
+        </div>
+        <div class="skills">
+            <i class="fab fa-css3"></i>
+        </div>
+        <div class="skills" >
+            <i class="fab fa-js"></i>
+        </div>
+        <div class="skills">
+            <i class="fab fa-python"></i>
+        </div>
+        <div class="skills">
+            <i class="fab fa-figma"></i>
+        </div>
+    </div>
+    
+    </section>
+     <section id="About">
+        <div style="margin-top: 100px; margin-bottom: 100px;">
+    
+        <h1 style="font-size: 35px;">EDUCATION </h1>
+        <div style= "margin-top:10px; margin-bottom: 10px;">
+    </div>
+        <div style="display: grid; grid-auto-columns: 50% 50%;  justify-content: space-between;  align-self: center;">
+            <div>
+                <br>
+                <h3>2021-2024 (Distance-Learning since Covid)</h3>
+                <h3> University Of Hertfordshire/ Program: Computer science</h3>
+                <br>
+                <h3 style="font-size: 25px;">CURRENT AND PREVIOUS MODULES:<h3>
+                    <!-- <br> -->
+                    <p>• Programming Foundations<p>
+                       <p>• Systems Analysis and Design<p>
+                         <p>• Web and Multimedia Application<p> 
+                       <p> • Computer and Network Technology<p> 
+                    <p>• Software Development<p> 
+                 <p>• Managing Business Information<p> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+   <section id="contact" >
+    
+    <div class="reach">
+        <h2 style="text-align:center; color: white;font-size: 35px;">CONTACT US</h2>
+        <div style= "margin-top:25px; margin-bottom: 25px;"></div>
+        <div style="display: flex; flex-direction: column; width: 300px; justify-content: center;
+        margin: 0 450px;">
+            <input style="margin: 10px 0; padding: 10px;  border-radius: 50px; height: 15px;" type="text" placeholder="Name">
+            <input style="margin: 10px 0; padding: 10px; border-radius: 50px; height: 15px;" type="text" placeholder="Email">
+            <textarea style="margin: 20px 0; padding: 10px; border-radius: 16px;
+            font-family: 'Helvetica', Arial, Lucida Grande, sans-serif !important;"
+             name="" id=""  placeholder="Message" cols="30" rows="6"></textarea>
+            </div>
+            <div button style="display: flex; flex-direction: column; width: 150px; justify-content: center;
+            margin: 0 520px;">
+            <button style=" color:rgb(254, 254, 255); margin: 20px 0; height: 35px; background-color: rgb(14, 10, 34); border-radius: 50px;">SUBMIT</button>
+    </div>
+    <div>
+
+       <ul  style="margin-top:40px; margin-bottom: 0px; display: flex; flex-direction: row; justify-content: center; grid-gap: 50px; text-align: right; ">
+            <li style="display: block;">
+                <a href="#"><i style="color: #f9fafc;" class="fab fa-facebook"></i></a>
+            </li>
+            <li style="display: block;">
+                <a href="#"><i style="color: #fdfdfd;" class="fab fa-instagram"></i></a>
+            </li>
+            <li style="display: block;">
+                <a href="#"><i style="color: #fdfcfc;" class="fab fa-github"></i></a>
+            </li>
+            <li style="display: block;">
+                <a href="#"><i style="color: #fcfbf9;" class="fa fa-envelope"></i></i></a>
+            </li>
+               
+        </ul>
+    </div>
+   </section>
+  
+        
+</body>
+</html>

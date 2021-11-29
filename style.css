@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(10, 9, 9);
+           padding: 0 1.5em;
+}
+h1{
+    color: rgb(252, 252, 252);
+}
+p{
+    color: #e7ddddcb ;
+}
+/* nav{
+    position: fixed;
+    width: 66%;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    background: #20272E;
+    height: 100vh;
+    padding: 1em;
+} */
+nav ul.top-navbar{
+    /* margin-top: 10px; */
+    display: flex;
+}
+nav li a {
+    color: rgb(252, 248, 248);
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    font-size: 1.3em;
+    text-align: right;
+}
+nav li a:hover{
+color: black;
+background-color: white;
+}
+.navbar{
+    padding: 0.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(7, 7, 7);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    /* background: white; */
+}
+.navbar .container{
+    /* display: cover;
+    place-content: space-between; */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4.5em;
+}
+#top-heading h1{
+    padding-left: 1.5em;
+    display: cover;
+    font-size: 50px;
+    width: 50%;
+    word-break: normal;
+    justify-self: flex-start;
+}
+.zig-zag{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+.zig-zag img{
+    height: cover;
+    width: cover;
+}
+h3{
+    color: white;
+}
+.skills{
+    height: 100px;
+    padding: 0 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+     border-radius: 50%;
+}
+.skills:hover{
+    color: white;
+    background-color: black;
+    }
+.fab{
+    font-size:45px;
+}
+li .fab{
+    font-size:25px;
+}
+li .fa{
+    font-size:25px;
+}
+
+
+a{
+    color: violet;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    color: white;
+}
