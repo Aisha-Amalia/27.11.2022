@@ -27,14 +27,14 @@
 <script type="text/javascript">
 (function() {
     var rot1ator = document.getElementById('rotator'), //get the element
-    dir = 'image/',                              //images folder
+    dir = 'Image/',                              //Images folder
     delayInSeconds = 2.3,                           //delay in seconds
     num = 1,                                      //start number
     len = 8;                                      //limit
     setInterval(function(){                           //interval changer
         rotator.src = dir + num+'.png';               //change picture
         rotator.alt = num+'.jpg';
-        num = (num === len) ? 1 : ++num;              //reset if last image reached
+        num = (num === len) ? 1 : ++num;              //reset if last Image reached
     }, delayInSeconds * 99);
 }());
 
@@ -44,7 +44,7 @@
         <h1 style="font-size: 55px;"> Exploring the beauty of coding as I go. </h1>
     </div>
    <div class="zig-zag" >
-    <img  id="rotator" src="image/1.png"  alt="rotating image">
+    <img  id="rotator" src="Image/1.png"  alt="rotating Image">
    </div>
    
 </section>
